@@ -4,8 +4,8 @@ import Header from "@/components/Header";
 const cairo = Cairo({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "الدلتا للتدريب",
-  description: "الدلتا للتدريب و التنمية البشرية",
+  title: "أكاديمية الدلتا",
+  description: "أكاديمية الدلتا للتدريب و التنمية البشرية",
 };
 
 export default function RootLayout({ children }) {

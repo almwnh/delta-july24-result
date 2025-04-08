@@ -7,6 +7,7 @@ import { Spinner } from "@nextui-org/react";
 import { useRouter } from "next/navigation";
 import { Link, Button } from "@nextui-org/react";
 import Footer from "@/components/Footer";
+import { AllDegrees } from "@/components/AllDegrees";
 
 export default function Page({ params }) {
 
@@ -92,6 +93,7 @@ export default function Page({ params }) {
               </Link>
             </div>
             <StudentInfo student={student} />
+            <AllDegrees student={student} />
           </div>
 
         </div>

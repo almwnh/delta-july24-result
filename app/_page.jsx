@@ -40,7 +40,7 @@ export default function Home() {
 
   const naviagate = () => {
     if (id.length === 14) {
-      router.push('grad/' + id)
+      router.push('student/' + id)
     }
   }
 
@@ -56,9 +56,9 @@ export default function Home() {
         <div className="container grid  mx-auto text-center justify-center">
           <div>
             <h2 className="md:text-3xl text-2xl my-8  font-bold" >
-              تخرج دفعه مارس
+              نتيجة دفعه يوليو الترم الثالث
               <br />
-              2025/2024
+              2024/2023
             </h2>
 
           </div>
@@ -68,7 +68,7 @@ export default function Home() {
                 setID(e.target.value)
               }} id="idInput" type="text" label="ادخل الرقم القومى" />
               <p className="text-start text-slate-500 mt-3">
-                يرجي ادخال الرقم القومي المسجل لدينا لاظهار شهادة التخرج للطالب
+                يرجي ادخال الرقم القومي المسجل لدينا لاظهار معلومات الطالب
               </p>
               <Button onClick={() => naviagate()} className="w-full my-4" color="primary">
                 اظهار

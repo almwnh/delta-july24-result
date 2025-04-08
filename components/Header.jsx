@@ -5,7 +5,7 @@ export default function Header() {
     <header className="header">
         <div className="flex w-full justify-between items-center" >
             <div >
-                <h2 className="text-2xl text-center font-bold">الدلـــــــــتا</h2>
+                <h2 className="text-2xl font-bold">أكاديمية الدلـتا</h2>
                 <p>للتدريب و التنمية البشريـة</p>
             </div>
            <div className="bg-white  rounded-full">
